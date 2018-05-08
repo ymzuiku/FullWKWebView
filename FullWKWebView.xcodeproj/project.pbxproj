@@ -12,6 +12,7 @@
 		99637F4020A14779000943F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99637F3E20A14779000943F7 /* Main.storyboard */; };
 		99637F4220A1477A000943F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99637F4120A1477A000943F7 /* Assets.xcassets */; };
 		99637F4520A1477A000943F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99637F4320A1477A000943F7 /* LaunchScreen.storyboard */; };
+		99637F4D20A14F42000943F7 /* FullScreenWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99637F4C20A14F42000943F7 /* FullScreenWKWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		99637F4120A1477A000943F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99637F4420A1477A000943F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99637F4620A1477A000943F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99637F4C20A14F42000943F7 /* FullScreenWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenWKWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				99637F3A20A14779000943F7 /* AppDelegate.swift */,
 				99637F3C20A14779000943F7 /* ViewController.swift */,
+				99637F4C20A14F42000943F7 /* FullScreenWKWebView.swift */,
 				99637F3E20A14779000943F7 /* Main.storyboard */,
 				99637F4120A1477A000943F7 /* Assets.xcassets */,
 				99637F4320A1477A000943F7 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				99637F3D20A14779000943F7 /* ViewController.swift in Sources */,
 				99637F3B20A14779000943F7 /* AppDelegate.swift in Sources */,
+				99637F4D20A14F42000943F7 /* FullScreenWKWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

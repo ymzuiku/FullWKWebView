@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent;
         let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView = FullScreenWKWebView(frame: .zero, configuration: webConfiguration)
         view = webView
         
-        let myURL = URL(string: "http://192.168.192.106:3000/")
+        let myURL = URL(string: "http://192.168.22.13:3000/")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }
